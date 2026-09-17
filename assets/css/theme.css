@@ -1,0 +1,93 @@
+/* ============================================================
+   THEME LAYER — every colour in the site resolves to a token
+   here. Retheming = edit ONE block. Nothing else needs touching.
+
+   Switch theme by setting data-theme on <html>:
+     <html data-theme="signal">   (default, closest to current site)
+     <html data-theme="ember">
+     <html data-theme="harbor">
+   ============================================================ */
+
+:root {
+  /* ---- brand ---- */
+  --brand:            #fe6563;   /* coral — primary action / accent   */
+  --brand-strong:     #e84f4d;   /* hover / pressed                   */
+  --brand-soft:       #fff1f0;   /* tinted backgrounds                */
+  --accent:           #00c3ff;   /* cyan — secondary highlight        */
+  --accent-strong:    #039bdc;
+  /* Accent as used ON the dark bands. Defaults to --accent; a theme whose
+     accent is too dark or too hot against --dark overrides just this one. */
+  --accent-on-dark:   var(--accent);
+  /* Hue blended into the hero artwork so the coral photo tracks the theme.
+     See the .hero rule in base.css for how this is applied. */
+  --hero-tint:        var(--brand);
+
+  /* ---- neutrals / surfaces ---- */
+  --ink:              #101010;   /* headings                          */
+  --body:             #505050;   /* body copy                         */
+  --muted:            #7a8290;   /* captions, meta                    */
+  --line:             #e2e2e2;   /* borders, dividers                 */
+  --surface:          #ffffff;   /* cards, page                       */
+  --surface-alt:      #f7f8fa;   /* banded sections                   */
+  --dark:             #122634;   /* navy — footer, dark bands         */
+  --dark-2:           #192e46;
+  --on-dark:          #eef3f8;
+
+  /* ---- derived / semantic ---- */
+  --focus:            var(--accent);
+  --shadow-sm: 0 1px 2px rgba(16,16,16,.06), 0 2px 8px rgba(16,16,16,.05);
+  --shadow-md: 0 8px 24px rgba(16,16,16,.09);
+  --shadow-lg: 0 20px 48px rgba(16,16,16,.13);
+
+  /* ---- type ---- */
+  --font-sans: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-display: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+
+  /* ---- rhythm ---- */
+  --radius:    14px;
+  --radius-sm: 9px;
+  --radius-lg: 24px;
+  --gutter:    clamp(1rem, 4vw, 2rem);
+  --section-y: clamp(3.5rem, 8vw, 7rem);
+  --maxw:      1220px;
+}
+
+/* ---------- OPTION A · "Signal" (default) -------------------
+   Today's coral + cyan, just cleaned up and made consistent.
+   Use this if you want the retheme to be nearly invisible.    */
+:root[data-theme="signal"] {
+  --brand: #fe6563;  --brand-strong: #e84f4d;  --brand-soft: #fff1f0;
+  --accent: #00c3ff; --accent-strong: #039bdc;
+  --dark: #122634;   --dark-2: #192e46;
+}
+
+/* ---------- OPTION B · "Ember" -----------------------------
+   Coral deepened toward terracotta, cyan swapped for a warm
+   amber. Reads more premium / less startup-y. Same energy.    */
+:root[data-theme="ember"] {
+  --brand: #e2564b;  --brand-strong: #c4403a;  --brand-soft: #fdf1ee;
+  --accent: #f2a93b; --accent-strong: #d88c1d;
+  --dark: #1b1f24;   --dark-2: #2a3037;
+  --on-dark: #f4efe9;
+}
+
+/* ---------- OPTION C · "Harbor" ----------------------------
+   Primary moves to a deep indigo and coral is demoted to a
+   pure accent. Biggest shift of the three, still adjacent.    */
+:root[data-theme="harbor"] {
+  --brand: #3b4ee0;  --brand-strong: #2c3bbd;  --brand-soft: #eef0ff;
+  --accent: #ff6b5e; --accent-strong: #e2544a;
+  --dark: #0f1b33;   --dark-2: #1a2a4a;
+  --on-dark: #e9eefb;
+  /* Indigo is unreadable on this navy and the coral accent reads as
+     "unthemed red" there, so dark bands get a lifted indigo instead. */
+  --accent-on-dark: #8fa2ff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .001ms !important;
+    transition-duration: .001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
