@@ -59,17 +59,11 @@ h4{font-size:1.06rem}
 .site-header{position:sticky;top:0;z-index:60;background:var(--surface);
   border-bottom:1px solid var(--line)}
 .site-header__inner{display:flex;align-items:center;gap:1.25rem;min-height:74px}
-/* The supplied logo is a solid-white mark with transparency, drawn for a dark
-   header. Masking it lets the same file take the theme colour on any
-   background — swap in a full-colour logo and replace this with a plain <img>. */
+/* The logo is rendered as a plain <img> so it keeps its own colours. Do not
+   re-introduce a mask here — masking paints a flat colour through the file's
+   alpha channel and throws the artwork's colours away. */
 .logo{display:block}
-/* NOTE: this url() must stay here rather than being passed in as a custom
-   property — a relative url() inside a var() resolves against this stylesheet,
-   not the HTML document, which silently breaks the path. */
-.logo__mark{display:block;width:160px;height:38px;background:var(--ink);
-  -webkit-mask:url("../img/logo.webp") left center/contain no-repeat;
-  mask:url("../img/logo.webp") left center/contain no-repeat}
-.logo img{height:38px;width:auto}
+.logo img{display:block;height:38px;width:auto}
 .nav{margin-left:auto}
 .nav>ul{display:flex;align-items:center;gap:.35rem}
 .nav a{display:block;padding:.6rem .85rem;border-radius:var(--radius-sm);
@@ -259,7 +253,7 @@ h4{font-size:1.06rem}
 .site-footer a:hover{color:var(--accent-on-dark)}
 .footer__grid{display:grid;gap:2rem;grid-template-columns:repeat(auto-fit,minmax(175px,1fr))}
 .footer__brand{max-width:32ch}
-.footer__brand img{height:40px;margin-bottom:1rem}
+.footer__brand img{height:40px;width:auto;margin-bottom:1rem}
 .footer__brand p{font-size:.92rem;color:color-mix(in srgb,var(--on-dark) 72%,transparent)}
 .footer__bar{margin-top:2.5rem;padding-top:1.4rem;border-top:1px solid color-mix(in srgb,#fff 14%,transparent);
   display:flex;flex-wrap:wrap;gap:1rem;justify-content:space-between;font-size:.86rem;

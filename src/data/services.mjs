@@ -15,7 +15,7 @@ const coreServices = [
   /* ------------------------------------------------ website design ------ */
   {
     slug: 'website-design-services.html',
-    title: 'Custom Website Design Services | Web Design Lane',
+    title: 'Custom Website Design Services | Kodex Designs',
     description:
       'Custom web design services in the USA. We build mobile-responsive websites that are visually beautiful and convert visitors into repeat customers.',
     h1: 'Your Website is Your Pitch, Design It to Win',
@@ -26,7 +26,7 @@ const coreServices = [
       title: 'Grow Your Biz with Best-in-Class Web Designs',
       img: 'assets/img/webdesign_page/s1right.webp',
       body: [
-        "Your website is more than just an online presence; it's your brand's most powerful tool for attracting customers and driving business growth. At Web Design Lane, we offer all-in-one web design solutions.",
+        "Your website is more than just an online presence; it's your brand's most powerful tool for attracting customers and driving business growth. At Kodex Designs, we offer all-in-one web design solutions.",
         "Whether you want a new, slick design or would like to improve the functionality of your existing website, our team of expert web designers is ready to help. From concept to code, we help you realize that vision through clean, modern, mobile-friendly designs.",
       ],
       list: [
@@ -104,7 +104,7 @@ const coreServices = [
   /* -------------------------------------------- website development ----- */
   {
     slug: 'website-development-services.html',
-    title: 'Website Development Services | Web Design Lane',
+    title: 'Website Development Services | Kodex Designs',
     description:
       'Scalable, secure website development services in the USA. We build fast, reliable websites and web applications tailored to your business objectives.',
     h1: 'Built to Perform, Coded to Last',
@@ -184,7 +184,7 @@ const coreServices = [
   /* ----------------------------------------------------- branding ------- */
   {
     slug: 'branding-agency.html',
-    title: 'Branding Agency | Web Design Lane',
+    title: 'Branding Agency | Kodex Designs',
     description:
       'A branding agency that builds identities with intent — strategy, visual identity, logo and brand guidelines that hold up everywhere your brand appears.',
     h1: 'Brands People Actually Remember',
@@ -263,7 +263,7 @@ const coreServices = [
   /* --------------------------------------------------- logo design ------ */
   {
     slug: 'logo-design-services.html',
-    title: 'Logo Design Services | Web Design Lane',
+    title: 'Logo Design Services | Kodex Designs',
     description:
       'Professional logo design services. Distinctive, versatile marks designed to work at every size and in every medium, delivered with full source files.',
     h1: 'A Mark Worth Putting Your Name To',

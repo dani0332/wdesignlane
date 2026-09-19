@@ -90,6 +90,6 @@ export default page({
   slug: 'contact.html',
   title: `Contact Us – ${company.name}`,
   description:
-    'Contact Web Design Lane to build a website that makes a lasting first impression. Free consultation, no obligation.',
+    'Contact Kodex Designs to build a website that makes a lasting first impression. Free consultation, no obligation.',
   body,
 });

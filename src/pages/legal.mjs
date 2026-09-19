@@ -37,9 +37,9 @@ ${pageHead({ title: h1, crumb, lede })}
 /* ------------------------------------------------------- privacy policy -- */
 export const privacyPolicy = legalPage({
   slug: 'privacy-policy.html',
-  title: 'Privacy Policy | Web Design Lane',
+  title: 'Privacy Policy | Kodex Designs',
   description:
-    'How Web Design Lane collects, uses and protects the personal information you provide through this website.',
+    'How Kodex Designs collects, uses and protects the personal information you provide through this website.',
   h1: 'Privacy Policy',
   crumb: 'Privacy Policy',
   lede:
@@ -133,9 +133,9 @@ export const privacyPolicy = legalPage({
 /* ---------------------------------------------------- terms & conditions -- */
 export const termsAndConditions = legalPage({
   slug: 'terms-and-condition.html',
-  title: 'Terms & Conditions | Web Design Lane',
+  title: 'Terms & Conditions | Kodex Designs',
   description:
-    'The terms that apply to your use of the Web Design Lane website and to work commissioned from us.',
+    'The terms that apply to your use of the Kodex Designs website and to work commissioned from us.',
   h1: 'Terms & Conditions',
   crumb: 'Terms & Conditions',
   lede:

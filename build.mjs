@@ -110,8 +110,8 @@ for (const href of linked) {
   const html = page({
     slug: href,
     theme,
-    title: `${name} | Web Design Lane`,
-    description: `${name} — Web Design Lane.`,
+    title: `${name} | Kodex Designs`,
+    description: `${name} — Kodex Designs.`,
     body: `<section class="section"><div class="wrap center" style="max-width:640px">
       <span class="eyebrow">Coming next</span>
       <h1>${name}</h1>
@@ -130,7 +130,7 @@ for (const href of linked) {
 const all = [...built, ...[...linked].filter((h) => !built.has(h))];
 const urls = all
   .map((h) => {
-    const loc = 'https://www.webdesignlane.com/' + h.replace(/\.html$/, '').replace(/^index$/, '');
+    const loc = 'https://kodexdesigns.com/' + h.replace(/\.html$/, '').replace(/^index$/, '');
     return `  <url><loc>${loc}</loc><changefreq>weekly</changefreq></url>`;
   })
   .join('\n');
@@ -142,14 +142,14 @@ fs.writeFileSync(
 // blog at /blog/ that no longer exists, and points at a sitemap that 404s.
 fs.writeFileSync(
   path.join(dist, 'robots.txt'),
-  'User-agent: *\nAllow: /\n\nSitemap: https://www.webdesignlane.com/sitemap.xml\n'
+  'User-agent: *\nAllow: /\n\nSitemap: https://kodexdesigns.com/sitemap.xml\n'
 );
 
 /* ------------------------------------------------- real 404 page + config */
 const notFound = page({
   slug: '404.html',
   theme,
-  title: 'Page Not Found | Web Design Lane',
+  title: 'Page Not Found | Kodex Designs',
   description: 'The page you were looking for could not be found.',
   body: `<section class="section"><div class="wrap center" style="max-width:620px">
     <span class="eyebrow">Error 404</span>

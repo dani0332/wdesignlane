@@ -28,11 +28,11 @@ const process = [
 ];
 
 const testimonials = [
-  { text: 'Web Design Lane converted our web store into a clean, intuitive site. Sales have increased exponentially, and the user interface is perfect.',
+  { text: 'Kodex Designs converted our web store into a clean, intuitive site. Sales have increased exponentially, and the user interface is perfect.',
     name: 'John Davies', role: 'E-Commerce Business Owner' },
-  { text: 'We were having trouble making our site both user-friendly and HIPAA-friendly. Web Design Lane created a stunning, secure site that exceeded our expectations.',
+  { text: 'We were having trouble making our site both user-friendly and HIPAA-friendly. Kodex Designs created a stunning, secure site that exceeded our expectations.',
     name: 'Sara Smith', role: 'Medical Professional' },
-  { text: 'Web Design Lane made me a quick, mobile-friendly, and aesthetically pleasing website that generates daily leads. I couldn’t be more satisfied!',
+  { text: 'Kodex Designs made me a quick, mobile-friendly, and aesthetically pleasing website that generates daily leads. I couldn’t be more satisfied!',
     name: 'Michael T.', role: 'Real Estate Agent' },
 ];
 
@@ -123,6 +123,6 @@ export default page({
   slug: 'about.html',
   title: `About Our Creative Digital Agency | ${company.name}`,
   description:
-    'Web Design Lane is a full-service digital agency building websites that perform with purpose. Learn about our mission, vision, process and what sets us apart.',
+    'Kodex Designs is a full-service digital agency building websites that perform with purpose. Learn about our mission, vision, process and what sets us apart.',
   body,
 });

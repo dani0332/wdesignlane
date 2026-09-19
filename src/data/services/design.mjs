@@ -9,7 +9,7 @@ export const designServices = [
   /* -------------------------------------------------- website redesign -- */
   {
     slug: 'website-redesign-services.html',
-    title: 'Website Redesign Services | Web Design Lane',
+    title: 'Website Redesign Services | Kodex Designs',
     description:
       'Website redesign services that modernise dated sites without losing rankings. Faster load times, a proper mobile experience and a design that converts.',
     h1: 'Keep the Equity, Lose the Dated Design',
@@ -89,7 +89,7 @@ export const designServices = [
   /* ------------------------------------------------------ static design -- */
   {
     slug: 'static-web-designing.html',
-    title: 'Static Website Design Services | Web Design Lane',
+    title: 'Static Website Design Services | Kodex Designs',
     description:
       'Static web design services in the USA. Pre-rendered sites that load instantly, resist attack and cost less to host — ideal for portfolios and small businesses.',
     h1: 'Go Static, Get Speed With No Database Drag',
@@ -169,7 +169,7 @@ export const designServices = [
   /* ----------------------------------------------------- dynamic design -- */
   {
     slug: 'dynamic-web-designing.html',
-    title: 'Dynamic Website Design Services | Web Design Lane',
+    title: 'Dynamic Website Design Services | Kodex Designs',
     description:
       'Dynamic web design services. Database-driven websites with user accounts, live content, dashboards and integrations that scale as your business grows.',
     h1: 'Websites That Change With Your Business',
@@ -248,7 +248,7 @@ export const designServices = [
   /* -------------------------------------------------- responsive design -- */
   {
     slug: 'responsive-web-designing.html',
-    title: 'Responsive Web Design Services | Web Design Lane',
+    title: 'Responsive Web Design Services | Kodex Designs',
     description:
       'Responsive web design services. Mobile-first layouts tested on real devices, so your site works everywhere your customers actually browse.',
     h1: 'One Site, Right on Every Screen',
@@ -327,7 +327,7 @@ export const designServices = [
   /* --------------------------------------------------------- b2b design -- */
   {
     slug: 'b2b-web-designing.html',
-    title: 'B2B Web Design Services | Web Design Lane',
+    title: 'B2B Web Design Services | Kodex Designs',
     description:
       'B2B web design services built around long sales cycles — lead capture, gated content, CRM integration and pages that speak to buying committees.',
     h1: 'Design for Buyers Who Take Six Months to Decide',
@@ -406,7 +406,7 @@ export const designServices = [
   /* ------------------------------------------------------- landing page -- */
   {
     slug: 'landing-page-design.html',
-    title: 'Landing Page Design Services | Web Design Lane',
+    title: 'Landing Page Design Services | Kodex Designs',
     description:
       'Conversion-focused landing page design. Single-purpose pages with persuasive copy, fast loads and optimised forms that lower your cost per acquisition.',
     h1: 'One Page, One Job, Measurably Done',
@@ -485,7 +485,7 @@ export const designServices = [
   /* ------------------------------------------------- ecommerce web design */
   {
     slug: 'ecommerce-web-design-services.html',
-    title: 'eCommerce Web Design Services | Web Design Lane',
+    title: 'eCommerce Web Design Services | Kodex Designs',
     description:
       'eCommerce web design services that turn browsers into buyers. Storefronts, product pages and checkout flows designed around how people actually shop.',
     h1: 'Store Designs That Sell Your Products Fast',
@@ -564,7 +564,7 @@ export const designServices = [
   /* ----------------------------------------------------- shopify design -- */
   {
     slug: 'shopify-website-design.html',
-    title: 'Shopify Website Design | Web Design Lane',
+    title: 'Shopify Website Design | Kodex Designs',
     description:
       'Custom Shopify website design. Branded storefronts, bespoke theme work and conversion-focused product pages for merchants who want more than a template.',
     h1: 'Shopify Stores That Do Not Look Like Everyone Else',
@@ -643,7 +643,7 @@ export const designServices = [
   /* ----------------------------------------------------- magento design -- */
   {
     slug: 'magento-website-design.html',
-    title: 'Magento Website Design | Web Design Lane',
+    title: 'Magento Website Design | Kodex Designs',
     description:
       'Magento and Adobe Commerce website design for large catalogues, multi-store setups and B2B pricing rules. Built for complexity other platforms cannot carry.',
     h1: 'Built for Catalogues Other Platforms Choke On',
@@ -722,7 +722,7 @@ export const designServices = [
   /* ------------------------------------------------- woocommerce design -- */
   {
     slug: 'woocommerce-website-design.html',
-    title: 'WooCommerce Website Design | Web Design Lane',
+    title: 'WooCommerce Website Design | Kodex Designs',
     description:
       'WooCommerce website design for WordPress stores. Custom storefronts, faster product pages and checkout flows built on the CMS your content already lives in.',
     h1: 'Sell From the WordPress Site You Already Run',

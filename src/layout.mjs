@@ -50,8 +50,8 @@ export function header(current) {
   return `<a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="wrap site-header__inner">
-    <a class="logo" href="index.html" role="img" aria-label="${esc(company.name)} — home">
-      <span class="logo__mark"></span>
+    <a class="logo" href="index.html" aria-label="${esc(company.name)} — home">
+      <img src="${company.logo}" alt="${esc(company.name)}" width="123" height="38">
     </a>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
@@ -80,8 +80,7 @@ export function footer() {
   <div class="wrap">
     <div class="footer__grid">
       <div class="footer__brand">
-        <img src="${company.logo}" alt="${esc(company.name)}" width="168" height="40">
-        <p>We combine creativity with code to build custom websites that capture your brand identity and drive real business results.</p>
+        <img src="${company.logo}" alt="${esc(company.name)}" width="130" height="40">
         <p>${phoneLink()}
            <a href="mailto:${company.email}">${esc(company.email)}</a></p>
       </div>
@@ -227,7 +226,7 @@ export function page({ slug, title, description, theme = 'signal', body }) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
-<link rel="canonical" href="https://www.webdesignlane.com/${slug.replace(/\.html$/, '').replace(/^index$/, '')}">
+<link rel="canonical" href="https://kodexdesigns.com/${slug.replace(/\.html$/, '').replace(/^index$/, '')}">
 <link rel="icon" href="assets/img/fav.webp">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">

@@ -11,7 +11,7 @@ export const creativeServices = [
   /* ---------------------------------------------------- logo animation -- */
   {
     slug: 'logo-animation.html',
-    title: 'Logo Animation Services | Web Design Lane',
+    title: 'Logo Animation Services | Kodex Designs',
     description:
       'Logo animation services. Motion versions of your mark for video intros, social content, app splash screens and presentations, delivered in every format you need.',
     h1: 'Give Your Mark a Way to Move',
@@ -90,7 +90,7 @@ export const creativeServices = [
   /* ----------------------------------------------------- graphic design -- */
   {
     slug: 'graphic-design-agency.html',
-    title: 'Graphic Design Agency | Web Design Lane',
+    title: 'Graphic Design Agency | Kodex Designs',
     description:
       'Graphic design agency services — campaign creative, social templates, print collateral, packaging and presentation design that keep every output on brand.',
     h1: 'Every Output, Unmistakably Yours',
@@ -169,7 +169,7 @@ export const creativeServices = [
   /* -------------------------------------------------- typographic logo -- */
   {
     slug: 'typographic-logo.html',
-    title: 'Typographic Logo Design | Web Design Lane',
+    title: 'Typographic Logo Design | Kodex Designs',
     description:
       'Typographic logo design — custom wordmarks, lettering and monograms for brands whose name is their strongest asset. Drawn, not set from a font.',
     h1: 'When the Name Is the Logo',
@@ -248,7 +248,7 @@ export const creativeServices = [
   /* ----------------------------------------------------- social media --- */
   {
     slug: 'social-media-marketing-services.html',
-    title: 'Social Media Marketing Services | Web Design Lane',
+    title: 'Social Media Marketing Services | Kodex Designs',
     description:
       'Social media marketing services — strategy, content production, community management and paid social that turn followers into measurable business results.',
     h1: 'Followers Are Not the Goal, Customers Are',
@@ -327,7 +327,7 @@ export const creativeServices = [
   /* ------------------------------------------------------------- SEO ---- */
   {
     slug: 'seo-services.html',
-    title: 'SEO Services | Web Design Lane',
+    title: 'SEO Services | Kodex Designs',
     description:
       'SEO services in the USA — technical audits, on-page optimisation, local SEO, content strategy and white-hat link building, reported against real business outcomes.',
     h1: 'The First Result Wins the Click',
@@ -406,7 +406,7 @@ export const creativeServices = [
   /* ------------------------------------------------ reputation mgmt ----- */
   {
     slug: 'online-reputation-management-services.html',
-    title: 'Online Reputation Management Services | Web Design Lane',
+    title: 'Online Reputation Management Services | Kodex Designs',
     description:
       'Online reputation management — review generation, response strategy, search result management and monitoring, handled ethically and transparently.',
     h1: 'What People Find When They Search Your Name',
@@ -485,7 +485,7 @@ export const creativeServices = [
   /* --------------------------------------------- animated video prod ---- */
   {
     slug: 'animated-video-production.html',
-    title: 'Animated Video Production | Web Design Lane',
+    title: 'Animated Video Production | Kodex Designs',
     description:
       'Animated video production — 2D and motion graphics videos for marketing, product and training, delivered from script through storyboard to final cut.',
     h1: 'Ideas Are Easier to Watch Than to Read',
@@ -564,7 +564,7 @@ export const creativeServices = [
   /* ------------------------------------------------- explainer videos --- */
   {
     slug: 'explainer-videos-services.html',
-    title: 'Explainer Video Services | Web Design Lane',
+    title: 'Explainer Video Services | Kodex Designs',
     description:
       'Explainer video production — short, clear videos that make a product, service or process instantly understandable, from script to final delivery.',
     h1: 'Explainers That Actually Explain',
@@ -643,7 +643,7 @@ export const creativeServices = [
   /* ---------------------------------------------- whiteboard animation -- */
   {
     slug: 'whiteboard-animation.html',
-    title: 'Whiteboard Animation Services | Web Design Lane',
+    title: 'Whiteboard Animation Services | Kodex Designs',
     description:
       'Whiteboard animation services — hand-drawn style videos that build an idea in front of the viewer, ideal for processes, training and technical explanations.',
     h1: 'Watch the Idea Get Drawn',

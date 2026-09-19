@@ -11,7 +11,7 @@ export const industries = [
   {
     slug: 'accounting-web-design-development.html',
     dir: 'accounting',
-    title: 'Accounting Firm Web Design & Development | Web Design Lane',
+    title: 'Accounting Firm Web Design & Development | Kodex Designs',
     description:
       'Web design and development for accounting firms and CPAs. Credible, secure sites with client portals, clear service pages and local search visibility.',
     h1: 'Websites That Win Accounting Clients',
@@ -102,7 +102,7 @@ export const industries = [
   {
     slug: 'architect-web-design-development.html',
     dir: 'architechture',
-    title: 'Architecture Firm Web Design & Development | Web Design Lane',
+    title: 'Architecture Firm Web Design & Development | Kodex Designs',
     description:
       'Web design for architecture firms and practices. Image-led portfolio sites that show the work at full quality without sacrificing load speed.',
     h1: 'Portfolios That Do Your Buildings Justice',
@@ -193,7 +193,7 @@ export const industries = [
   {
     slug: 'auto-repair-web-design-development.html',
     dir: 'autorepair',
-    title: 'Auto Repair Shop Web Design & Development | Web Design Lane',
+    title: 'Auto Repair Shop Web Design & Development | Kodex Designs',
     description:
       'Web design for auto repair shops and garages. Mobile-first sites with online booking, service pages and local SEO that bring in nearby drivers.',
     h1: 'Get Found by Drivers Who Need You Now',
@@ -284,7 +284,7 @@ export const industries = [
   {
     slug: 'bank-web-design-development.html',
     dir: 'bank',
-    title: 'Bank & Financial Institution Web Design | Web Design Lane',
+    title: 'Bank & Financial Institution Web Design | Kodex Designs',
     description:
       'Web design and development for banks, credit unions and financial institutions — secure, accessible, compliant sites with product pages that convert.',
     h1: 'Banking Sites Built on Trust and Compliance',
@@ -375,7 +375,7 @@ export const industries = [
   {
     slug: 'church-web-design-development.html',
     dir: 'church',
-    title: 'Church Website Design & Development | Web Design Lane',
+    title: 'Church Website Design & Development | Kodex Designs',
     description:
       'Church website design — service times, sermon archives, online giving and event calendars, built so a small volunteer team can keep it current.',
     h1: 'A Welcome That Starts Before Sunday',
@@ -466,7 +466,7 @@ export const industries = [
   {
     slug: 'dentist-web-design-development.html',
     dir: 'dentist',
-    title: 'Dental Website Design & Development | Web Design Lane',
+    title: 'Dental Website Design & Development | Kodex Designs',
     description:
       'Dental website design — treatment pages, online appointment booking, smile galleries and HIPAA-conscious forms that turn searches into booked patients.',
     h1: 'Websites That Grow Your Dental Practice',
@@ -557,7 +557,7 @@ export const industries = [
   {
     slug: 'doctor-web-design-development.html',
     dir: 'doctor',
-    title: 'Medical Practice Web Design & Development | Web Design Lane',
+    title: 'Medical Practice Web Design & Development | Kodex Designs',
     description:
       'Web design for doctors, clinics and medical practices — patient portals, online scheduling, service pages and accessible, privacy-conscious builds.',
     h1: 'Medical Sites Patients Can Rely On',
@@ -648,7 +648,7 @@ export const industries = [
   {
     slug: 'electrician-web-design-development.html',
     dir: 'electrician',
-    title: 'Electrician Web Design & Development | Web Design Lane',
+    title: 'Electrician Web Design & Development | Kodex Designs',
     description:
       'Web design for electricians and electrical contractors — emergency call handling, service area pages, quote requests and local SEO that fills the diary.',
     h1: 'Be the Electrician They Call First',
@@ -739,7 +739,7 @@ export const industries = [
   {
     slug: 'law-web-design-development.html',
     dir: 'law',
-    title: 'Law Firm Web Design & Development | Web Design Lane',
+    title: 'Law Firm Web Design & Development | Kodex Designs',
     description:
       'Web design for law firms and attorneys — practice area pages, confidential intake, attorney profiles and local SEO built for competitive legal search.',
     h1: 'Law Firm Sites That Win the Consultation',
@@ -830,7 +830,7 @@ export const industries = [
   {
     slug: 'plumber-firm-web-design-development.html',
     dir: 'plumber',
-    title: 'Plumber Web Design & Development | Web Design Lane',
+    title: 'Plumber Web Design & Development | Kodex Designs',
     description:
       'Web design for plumbing companies — emergency call-outs, service area pages, online booking and local SEO that keeps engineers busy.',
     h1: 'The Plumber They Find at 2am',
@@ -921,7 +921,7 @@ export const industries = [
   {
     slug: 'real-estate-web-design-development.html',
     dir: 'realestate',
-    title: 'Real Estate Web Design & Development | Web Design Lane',
+    title: 'Real Estate Web Design & Development | Kodex Designs',
     description:
       'Real estate web design — property search, listing feeds, agent profiles and lead capture built for agencies and brokerages that live on enquiry volume.',
     h1: 'Property Sites That Generate Enquiries',
@@ -1012,7 +1012,7 @@ export const industries = [
   {
     slug: 'wedding-planner-web-design-development.html',
     dir: 'wedding',
-    title: 'Wedding Planner Web Design & Development | Web Design Lane',
+    title: 'Wedding Planner Web Design & Development | Kodex Designs',
     description:
       'Web design for wedding planners and venues — portfolio galleries, package information, enquiry forms and the elegant presentation this market expects.',
     h1: 'Sites as Considered as the Weddings',
@@ -1103,7 +1103,7 @@ export const industries = [
   {
     slug: 'nft-marketplace-development.html',
     dir: 'nft-market',
-    title: 'NFT Marketplace Development | Web Design Lane',
+    title: 'NFT Marketplace Development | Kodex Designs',
     description:
       'NFT marketplace development — wallet integration, smart contract interaction, minting, listings and auctions, built with security and gas costs in mind.',
     h1: 'Marketplaces Built on Contracts That Hold',
@@ -1194,7 +1194,7 @@ export const industries = [
   {
     slug: 'nft-web-development.html',
     dir: 'ntf-web',
-    title: 'NFT & Web3 Website Development | Web Design Lane',
+    title: 'NFT & Web3 Website Development | Kodex Designs',
     description:
       'NFT and Web3 website development — mint sites, project pages, token gating and wallet-connected experiences built to handle launch-day traffic.',
     h1: 'Mint Sites That Survive Launch Day',

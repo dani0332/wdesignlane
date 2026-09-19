@@ -9,7 +9,7 @@ export const developmentServices = [
   /* ------------------------------------------------- web portal --------- */
   {
     slug: 'web-portal-development.html',
-    title: 'Web Portal Development Services | Web Design Lane',
+    title: 'Web Portal Development Services | Kodex Designs',
     description:
       'Custom web portal development — client portals, vendor and partner portals, employee intranets and dashboards with secure roles and real-time data.',
     h1: 'Give Every User Their Own Front Door',
@@ -88,7 +88,7 @@ export const developmentServices = [
   /* ------------------------------------------------------- CMS ---------- */
   {
     slug: 'cms-development.html',
-    title: 'CMS Development Services | Web Design Lane',
+    title: 'CMS Development Services | Kodex Designs',
     description:
       'CMS development services — WordPress, headless and custom content platforms built so your team can publish confidently without breaking the design.',
     h1: 'A CMS Your Team Will Actually Use',
@@ -167,7 +167,7 @@ export const developmentServices = [
   /* ----------------------------------------------- web maintenance ------ */
   {
     slug: 'web-maintenance-services.html',
-    title: 'Website Maintenance Services | Web Design Lane',
+    title: 'Website Maintenance Services | Kodex Designs',
     description:
       'Website maintenance services — updates, backups, security monitoring, uptime checks and performance work, handled on a schedule instead of after an incident.',
     h1: 'The Work That Happens After Launch',
@@ -246,7 +246,7 @@ export const developmentServices = [
   /* ------------------------------------------ ecommerce development ----- */
   {
     slug: 'ecommerce-website-development.html',
-    title: 'eCommerce Website Development | Web Design Lane',
+    title: 'eCommerce Website Development | Kodex Designs',
     description:
       'eCommerce website development — storefronts, checkout, payments, inventory and ERP integration built to handle real order volume without falling over.',
     h1: 'Stores Built to Take the Order',
@@ -325,7 +325,7 @@ export const developmentServices = [
   /* -------------------------------------------- shopify development ----- */
   {
     slug: 'shopify-website-development.html',
-    title: 'Shopify Development Services | Web Design Lane',
+    title: 'Shopify Development Services | Kodex Designs',
     description:
       'Shopify development services — custom themes, private apps, checkout extensions, migrations and Shopify Plus builds by developers who know Liquid.',
     h1: 'Shopify, Pushed Past the Theme Settings',
@@ -404,7 +404,7 @@ export const developmentServices = [
   /* ------------------------------------------------ mobile app dev ------ */
   {
     slug: 'mobile-app-development-services.html',
-    title: 'Mobile App Development Services | Web Design Lane',
+    title: 'Mobile App Development Services | Kodex Designs',
     description:
       'Mobile app development services for iOS and Android — native and cross-platform apps designed, built, tested and shipped through the app stores.',
     h1: 'Apps People Keep on the Home Screen',

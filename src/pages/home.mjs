@@ -43,7 +43,7 @@ const apart = [
   { title: 'Results-Driven Approach', icon: 'assets/img/s6icon2.webp',
     text: 'We specialize in providing measurable outcomes, from boosting user interaction to enhancing conversions. Each project is designed to enable your business to meet its online objectives.' },
   { title: 'Personalized Solutions', icon: 'assets/img/s6icon3.webp',
-    text: 'At Web Design Lane, each website is developed to fit your specific requirements and vision. We offer personalized web solutions that support your brand and sector.' },
+    text: 'At Kodex Designs, each website is developed to fit your specific requirements and vision. We offer personalized web solutions that support your brand and sector.' },
   { title: 'Scalable and Secure', icon: 'assets/img/s6icon4.webp',
     text: 'We build websites that grow with your business. Our solutions are secure and designed to scale seamlessly as your needs grow with the changing digital industry.' },
   { title: 'Proven Track Record', icon: 'assets/img/s6icon5.webp',
@@ -64,17 +64,17 @@ const process = [
 ];
 
 const testimonials = [
-  { text: 'Web Design Lane converted our web store into a clean, intuitive site. Sales have increased exponentially, and the user interface is perfect. They know what it takes to succeed in e-commerce!',
+  { text: 'Kodex Designs converted our web store into a clean, intuitive site. Sales have increased exponentially, and the user interface is perfect. They know what it takes to succeed in e-commerce!',
     name: 'John Davies', role: 'E-Commerce Business Owner' },
-  { text: 'We were having trouble making our site both user-friendly and HIPAA-friendly. Web Design Lane created a stunning, secure site that exceeded our expectations. The attention to detail is impeccable.',
+  { text: 'We were having trouble making our site both user-friendly and HIPAA-friendly. Kodex Designs created a stunning, secure site that exceeded our expectations. The attention to detail is impeccable.',
     name: 'Sara Smith', role: 'Medical Professional' },
-  { text: 'As a real estate agent, I require a website that highlights properties most favorably. Web Design Lane made me a quick, mobile-friendly, and aesthetically pleasing website that generates daily leads.',
+  { text: 'As a real estate agent, I require a website that highlights properties most favorably. Kodex Designs made me a quick, mobile-friendly, and aesthetically pleasing website that generates daily leads.',
     name: 'Michael T.', role: 'Real Estate Agent' },
-  { text: 'The folks at Web Design Lane took our vision for an e-learning platform and easily turned it into a reality. The website is interactive and easy to use, and has enhanced our student enrollment.',
+  { text: 'The folks at Kodex Designs took our vision for an e-learning platform and easily turned it into a reality. The website is interactive and easy to use, and has enhanced our student enrollment.',
     name: 'Emma Dawson', role: 'Education Provider' },
-  { text: 'It was a pleasure working with Web Design Lane. They designed a website specifically tailored to my brand, which has enhanced my customer conversion rate. Highly recommended.',
+  { text: 'It was a pleasure working with Kodex Designs. They designed a website specifically tailored to my brand, which has enhanced my customer conversion rate. Highly recommended.',
     name: 'David Anderson', role: 'Small Business Owner' },
-  { text: "Web Design Lane brought our travel agency's site to functionality with a fresh design, easy navigation, and fantastic functionality. It's been a total game-changer for booking drive.",
+  { text: "Kodex Designs brought our travel agency's site to functionality with a fresh design, easy navigation, and fantastic functionality. It's been a total game-changer for booking drive.",
     name: 'Linda Brown', role: 'Owner, Travel Agency' },
 ];
 
@@ -300,6 +300,6 @@ export default page({
   slug: 'index.html',
   title: `${company.name} — ${company.tagline}`,
   description:
-    'Looking for an affordable website design company in USA? Web Design Lane creates an experience that transforms brands and grows business together.',
+    'Looking for an affordable website design company in USA? Kodex Designs creates an experience that transforms brands and grows business together.',
   body,
 });

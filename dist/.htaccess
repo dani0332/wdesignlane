@@ -1,5 +1,5 @@
 # =============================================================
-#  Web Design Lane — Apache config
+#  Kodex Designs — Apache config
 #  Copied into dist/ by build.mjs. Upload to the web root.
 #  Requires mod_rewrite, mod_deflate, mod_expires, mod_headers.
 # =============================================================
@@ -10,11 +10,11 @@ DirectoryIndex index.html
 <IfModule mod_rewrite.c>
 RewriteEngine On
 
-# ---- 1. canonical host: force HTTPS + www --------------------
-# Behind Cloudflare, use the forwarded proto or you get a loop.
+# ---- 1. canonical host: force HTTPS, strip www ---------------
+# Behind a CDN, match the forwarded proto or you get a loop.
 RewriteCond %{HTTP:X-Forwarded-Proto} =http [OR]
-RewriteCond %{HTTP_HOST} !^www\. [NC]
-RewriteRule ^ https://www.webdesignlane.com%{REQUEST_URI} [R=301,L]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^ https://kodexdesigns.com%{REQUEST_URI} [R=301,L]
 
 # ---- 2. /index and /index.html  ->  / ------------------------
 RewriteCond %{THE_REQUEST} \s/+index(\.html)?[\s?] [NC]

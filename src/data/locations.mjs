@@ -37,7 +37,7 @@ export const locations = [
     slug: 'california-web-design.html',
     crumb: 'California',
     region: 'California',
-    title: 'Web Design California | Web Design Lane',
+    title: 'Web Design California | Kodex Designs',
     description:
       'Web design and development for California businesses — custom sites, ecommerce and local SEO for startups, retailers and established firms across the state.',
     h1: 'Helping California Businesses Go Digital',
@@ -115,7 +115,7 @@ export const locations = [
     slug: 'colorado-web-design.html',
     crumb: 'Colorado',
     region: 'Colorado',
-    title: 'Web Design Colorado | Web Design Lane',
+    title: 'Web Design Colorado | Kodex Designs',
     description:
       'Web design and development for Colorado businesses — custom websites, ecommerce and local SEO for companies across Denver, Boulder and the Front Range.',
     h1: 'Web Design Built for Colorado Business',
@@ -193,7 +193,7 @@ export const locations = [
     slug: 'maryland-web-design.html',
     crumb: 'Maryland',
     region: 'Maryland',
-    title: 'Web Design Maryland | Web Design Lane',
+    title: 'Web Design Maryland | Kodex Designs',
     description:
       'Web design and development for Maryland businesses — custom sites, ecommerce and local SEO for companies across Baltimore, Annapolis and the DC suburbs.',
     h1: 'Web Design for Maryland Businesses',
@@ -271,7 +271,7 @@ export const locations = [
     slug: 'virginia-web-design.html',
     crumb: 'Virginia',
     region: 'Virginia',
-    title: 'Web Design Virginia | Web Design Lane',
+    title: 'Web Design Virginia | Kodex Designs',
     description:
       'Web design and development for Virginia businesses — custom websites, ecommerce and local SEO from Northern Virginia to Richmond and Hampton Roads.',
     h1: 'Web Design for Virginia Businesses',
@@ -349,7 +349,7 @@ export const locations = [
     slug: 'washington-dc-web-design.html',
     crumb: 'Washington DC',
     region: 'Washington DC',
-    title: 'Web Design Washington DC | Web Design Lane',
+    title: 'Web Design Washington DC | Kodex Designs',
     description:
       'Web design and development in Washington DC — accessible, credible websites for associations, nonprofits, professional firms and government contractors.',
     h1: 'Web Design for Washington DC',

@@ -2,7 +2,7 @@
 // Every page and the footer read from here, so adding a page is a one-line change.
 
 export const company = {
-  name: 'Web Design Lane',
+  name: 'Kodex Designs',
   tagline: 'Creative Web Design Agency in USA',
   // Optional. While these are empty, every phone affordance across the site is
   // omitted: the footer link, the hero and CTA-band buttons, the contact page
@@ -11,7 +11,7 @@ export const company = {
   // src/layout.mjs. (Previous number: 866-748-5602 / tel:+18667485602)
   phone: '',
   phoneHref: '',
-  email: 'sales@webdesignlane.com',
+  email: 'sales@kodexdesigns.com',
   logo: 'assets/img/logo.webp',
   year: new Date().getFullYear(),
 };
